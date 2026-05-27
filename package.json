@@ -1,15 +1,1 @@
-{
-  "name": "cg-stat-dashboard",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "check": "node -c api/analytics.js && node -c api/run-migration.js && node -c api/export-year.js && node -c api/exports.js"
-  },
-  "dependencies": {
-    "pg": "^8.13.1",
-    "xlsx": "^0.18.5"
-  },
-  "devDependencies": {
-    "vercel": "^39.1.1"
-  }
-}
+{"name":"cg-dashboard-online-config","version":"1.0.0","private":true,"scripts":{"check":"node -c app.js && node -c android-server-patch/api/dashboard-analytics.js"},"devDependencies":{"vercel":"^39.1.1"}}
