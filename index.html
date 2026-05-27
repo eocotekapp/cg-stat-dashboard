@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CG Quán Ăn Analytics</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo">CG</div>
+        <div><strong>Analytics</strong><span>CG Quán Ăn</span></div>
+      </div>
+      <nav>
+        <button class="nav-btn active" data-page="overview">Tổng quan</button>
+        <button class="nav-btn" data-page="revenue">Doanh thu</button>
+        <button class="nav-btn" data-page="items">Món ăn</button>
+        <button class="nav-btn" data-page="tables">Bàn</button>
+        <button class="nav-btn" data-page="inventory">Kho hàng</button>
+        <button class="nav-btn" data-page="exports">Excel năm</button>
+      </nav>
+      <div class="sidebar-card"><span>Trạng thái</span><b id="connectionStatus">Chưa kết nối</b><small>Đọc trực tiếp từ PostgreSQL</small></div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div><p class="eyebrow">CG QUÁN ĂN</p><h1 id="pageTitle">Dashboard thống kê</h1></div>
+        <div class="controls">
+          <input id="tokenInput" type="password" placeholder="Dashboard token" />
+          <select id="rangeSelect">
+            <option value="today">Hôm nay</option>
+            <option value="week">7 ngày</option>
+            <option value="month">Tháng này</option>
+            <option value="year">Năm nay</option>
+            <option value="all">Tất cả</option>
+          </select>
+          <button id="refreshBtn">Tải dữ liệu</button>
+        </div>
+      </header>
+
+      <section id="page-overview" class="page active">
+        <div class="hero-grid">
+          <article class="hero-card"><span>Tổng doanh thu</span><b id="totalRevenue">0đ</b><small>Đơn hoàn thành</small></article>
+          <article class="hero-card"><span>Lợi nhuận</span><b id="totalProfit">0đ</b><small>PRICE - ORIGINAL_PRICE</small></article>
+          <article class="hero-card"><span>Giá vốn</span><b id="totalCost">0đ</b><small>Tổng original price</small></article>
+          <article class="hero-card"><span>Biên lợi nhuận</span><b id="marginPercent">0%</b><small>Lãi / Doanh thu</small></article>
+        </div>
+        <div class="grid-2">
+          <section class="panel"><div class="panel-head"><h2>Doanh thu theo thời gian</h2><span>Revenue / Profit</span></div><div id="seriesChart" class="bar-chart"></div></section>
+          <section class="panel"><div class="panel-head"><h2>Giờ cao điểm</h2><span>Heatmap</span></div><div id="hourChart" class="hour-chart"></div></section>
+        </div>
+      </section>
+
+      <section id="page-revenue" class="page"><div class="panel"><div class="panel-head"><h2>Trích lục doanh thu</h2><span>Doanh thu - vốn - lãi</span></div><div id="revenueTable" class="data-table"></div></div></section>
+      <section id="page-items" class="page"><div class="panel"><div class="panel-head"><h2>Thống kê món chi tiết</h2><span>Top món, lãi, lỗ</span></div><div id="itemsTable" class="data-table"></div></div></section>
+      <section id="page-tables" class="page"><div class="panel"><div class="panel-head"><h2>Thống kê bàn</h2><span>Doanh thu từng bàn</span></div><div id="tablesTable" class="data-table"></div></div></section>
+      <section id="page-inventory" class="page"><div class="panel"><div class="panel-head"><h2>Thống kê kho hàng</h2><span>Cảnh báo tồn kho thấp</span></div><div id="inventoryTable" class="data-table"></div></div></section>
+      <section id="page-exports" class="page"><div class="panel"><div class="panel-head"><h2>Xuất Excel năm</h2><span>Hạn tải 30 ngày</span></div><div class="export-box"><input id="yearInput" type="number" min="2020" max="2100" /><button id="exportBtn">Xuất Excel</button></div><div id="exportsList" class="data-table"></div></div></section>
+    </main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
