@@ -1,5 +1,5 @@
 window.DASHBOARD_CONFIG = {
-  CONFIG_URL: "https://raw.githubusercontent.com/YOUR_GITHUB_USER/cg-online-config/main/api-config.json",
-  DASHBOARD_TOKEN: "CHANGE_ME_DASHBOARD_TOKEN",
+  CONFIG_URL: "https://raw.githubusercontent.com/eocotekapp/cg-stat-dashboard/main/api-config.json",
+  DASHBOARD_TOKEN: "Quan2001_dashboard",
   REFRESH_INTERVAL_MS: 60000
 };
