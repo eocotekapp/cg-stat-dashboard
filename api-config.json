@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://roommates-keeping-institution-smtp.trycloudflare.com",
-  "updatedAt": "2026-06-04T19:55:38+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-06-05T01:25:35+07:00",
   "source": "termux-android-server"
 }
