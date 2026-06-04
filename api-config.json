@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://studio-cluster-logan-lifestyle.trycloudflare.com",
-  "updatedAt": "2026-06-04T10:59:54+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-06-04T14:14:26+07:00",
   "source": "termux-android-server"
 }
