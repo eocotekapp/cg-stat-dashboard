@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://pending-purchased-bench-roll.trycloudflare.com",
-  "updatedAt": "2026-06-06T10:34:38+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-06-10T04:07:26+07:00",
   "source": "termux-android-server"
 }
