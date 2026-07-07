@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://rica-telecharger-landscape-rochester.trycloudflare.com",
-  "updatedAt": "2026-07-06T15:52:49+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-07-08T02:18:06+07:00",
   "source": "termux-android-server"
 }
