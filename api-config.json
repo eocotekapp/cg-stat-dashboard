@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://sacred-late-collectables-thickness.trycloudflare.com",
-  "updatedAt": "2026-08-14T06:00:06+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-08-17T14:54:31+07:00",
   "source": "termux-android-server"
 }
