@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://want-truth-respondents-zones.trycloudflare.com",
-  "updatedAt": "2026-08-22T18:59:40+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-08-28T04:27:44+07:00",
   "source": "termux-android-server"
 }
