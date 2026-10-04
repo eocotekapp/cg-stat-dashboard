@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://api.trycloudflare.com",
-  "updatedAt": "2026-10-04T15:16:38+07:00",
+  "apiBaseUrl": "https://vehicle-wallet-hugo-organization.trycloudflare.com",
+  "updatedAt": "2026-10-04T15:23:57+07:00",
   "source": "termux-android-server"
 }
