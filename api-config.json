@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://week-unable-lab-therapist.trycloudflare.com",
-  "updatedAt": "2026-09-29T09:24:02+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-10-04T14:59:25+07:00",
   "source": "termux-android-server"
 }
