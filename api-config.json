@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://reductions-pci-powell-diego.trycloudflare.com",
-  "updatedAt": "2026-11-04T22:11:47+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-11-04T23:25:51+07:00",
   "source": "termux-android-server"
 }
