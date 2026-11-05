@@ -1,5 +1,5 @@
 {
-  "apiBaseUrl": "https://skill-harvard-webster-begins.trycloudflare.com",
-  "updatedAt": "2026-11-05T11:56:35+07:00",
+  "apiBaseUrl": "https://api.trycloudflare.com",
+  "updatedAt": "2026-11-05T12:08:21+07:00",
   "source": "termux-android-server"
 }
